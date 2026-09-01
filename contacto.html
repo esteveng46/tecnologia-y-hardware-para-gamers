@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat store</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="icon" href="img/nitsha icono.png">
+</head>
+<body>
+
+    <!-- Encabezado Principal -->
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html">Cat store</a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="mision.html">Misión</a></li>
+                <li><a href="vision.html">Visión</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor Principal con Publicidad a los Lados -->
+    <div id="contenedor">
+        
+        <!-- Publicidad Izquierda -->
+        <aside id="publicidad1" class="banner-publicidad publicidad-izquierda">
+            <img src="img/senati.jpeg" alt="Publicidad 1">
+        </aside>
+
+        <!-- Contenido Central: Formulario de Contacto -->
+        <main id="contenido">
+            
+            <section class="contacto-section">
+                <h2>Contáctanos</h2>
+                <p>¿Tienes dudas sobre nuestros productos para tu gato? ¡Escríbenos y te responderemos pronto!</p>
+
+                <form class="form-contacto" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </section>
+
+        </main>
+
+        <!-- Publicidad Derecha -->
+<aside id="publicidad2" class="banner-publicidad publicidad-derecha">
+    <img src="img/gato.jpeg" alt="Publicidad 2">
+</aside>
+
+    </div>
+
+    <!-- Pie de Página (Footer) -->
+    <footer>
+        <p>Todos los derechos reservados - SENATI 2026</p>
+    </footer>
+
+</body>
+</html>
